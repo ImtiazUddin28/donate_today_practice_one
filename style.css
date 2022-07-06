@@ -113,9 +113,25 @@ p{
     font-size: 28px;
     padding-left: 5px;;
 }
-.showoff{
+.activities_content{
+    text-align: center;
+    padding: 40px 15%;
+}
+.activities_gallery{
     display: flex;
     margin: 25px;
+    justify-content: center;
+   
+}
+.gallery_item{
+    margin: 20px;
+    box-shadow: 10px 10px 20px gray;
+}
+.gallery_item h2, p {
+    padding: 10px;
+}
+.activities_gallery img{
+    width:100%;
 }
 .get_updates_content{
     text-align: center;
