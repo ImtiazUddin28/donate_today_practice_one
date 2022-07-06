@@ -1,185 +1,180 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-p{
-    padding: 20px 5px;
+p {
+  padding: 20px 5px;
 }
-.header{
-    background-image: url(images/donation7.jpg);
-    background-repeat: no-repeat;
-    height: 670px;
-    margin-top: 0;
-   
-
+.header {
+  background-image: url(images/donation7.jpg);
+  background-repeat: no-repeat;
+  height: 670px;
+  margin-top: 0;
 }
-.header_content{
-    text-align: center;
-    /*padding: 200px 150px 300px 150px; */
-    height: 320px;
-    padding: 175px 15%;
-    color: white
-    
+.header_content {
+  text-align: center;
+  /*padding: 200px 150px 300px 150px; */
+  height: 320px;
+  padding: 175px 15%;
+  color: white;
 }
 .header_content h1 {
-    font-size: 50px;
-    padding: 10px 20%;
-    margin-bottom: 0px;
+  font-size: 50px;
+  padding: 10px 20%;
+  margin-bottom: 0px;
 }
-.header_content h4{
-    padding: 30px 10%;
+.header_content h4 {
+  padding: 30px 10%;
 }
-.link_button{
-    text-decoration: none;
-    background-image: linear-gradient(orange, rgb(199, 30, 30));
-    padding: 15px 40px;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
+.link_button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, rgb(199, 30, 30));
+  padding: 15px 40px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
 }
-.donate_today{
-   text-align: center;
+.donate_today {
+  text-align: center;
 }
-.donate_heading{
-    text-align: center;
-    padding: 50px 15%;
+.donate_heading {
+  text-align: center;
+  padding: 50px 15%;
 }
-.donate_amount{
-    display: flex;
-    justify-content: center;
+.donate_amount {
+  display: flex;
+  justify-content: center;
 }
-.donate_amount .amount{
-    width: 120px;
-    height: 60px;
-    background-color: rgb(245, 242, 242);
-     text-align: center;
-    font-weight:bold;
-    font-size: 25px;
-    padding-top: 35px;
-    margin:10px;
+.donate_amount .amount {
+  width: 120px;
+  height: 60px;
+  background-color: rgb(245, 242, 242);
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 35px;
+  margin: 10px;
 }
-#amount_highlight{
-    border: 2px solid red;
-    color: red;
-    background-color: rgb(226, 207, 207);
-    border-radius: 3px;
+#amount_highlight {
+  border: 2px solid red;
+  color: red;
+  background-color: rgb(226, 207, 207);
+  border-radius: 3px;
 }
-#input_amount{
-    border: none;
-    width: 100%;
-    text-align: center;
-    outline: none;
-    font-size: 20px;
-    padding: 10px;
+#input_amount {
+  border: none;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
 }
 .donate_today hr {
-    margin: 0 20%;
-    margin-bottom: 30px;
+  margin: 0 20%;
+  margin-bottom: 30px;
 }
-.donate_plan_content{
-    text-align: center;
-    padding: 50px 15%;
+.donate_plan_content {
+  text-align: center;
+  padding: 50px 15%;
 }
-.donate_plan_item{
-    display: flex;
-    justify-content: center;
+.donate_plan_item {
+  display: flex;
+  justify-content: center;
 }
 
-.donate_plan_item .item{
-    width: 340px;
-    height: 300px;
-    margin: 8px;
-    padding: 10px 5px;
+.donate_plan_item .item {
+  width: 340px;
+  height: 300px;
+  margin: 8px;
+  padding: 10px 5px;
 }
-.donate_plan_item_food{
-    background-color: aquamarine;
+.donate_plan_item_food {
+  background-color: aquamarine;
 }
-.donate_plan_item_shelter{
-    background-color: bisque;
+.donate_plan_item_shelter {
+  background-color: bisque;
 }
-.donate_plan_item_education{
-    background-color: aqua;
+.donate_plan_item_education {
+  background-color: aqua;
 }
-.donate_plan_item .item img{
-    width: 53px;
-    height: 53px;
-    padding: 10px;
+.donate_plan_item .item img {
+  width: 53px;
+  height: 53px;
+  padding: 10px;
 }
-.donate_plan_item .item h1{
-    font-size: 28px;
-    padding-left: 5px;;
+.donate_plan_item .item h1 {
+  font-size: 28px;
+  padding-left: 5px;
 }
-.activities_content{
-    text-align: center;
-    padding: 40px 15%;
+.activities_content {
+  text-align: center;
+  padding: 40px 15%;
 }
-.activities_gallery{
-    display: flex;
-    margin: 25px;
-    justify-content: center;
-   
+.activities_gallery {
+  display: flex;
+  margin: 25px;
+  justify-content: center;
 }
-.gallery_item{
-    margin: 20px;
-    box-shadow: 10px 10px 20px gray;
+.gallery_item {
+  margin: 20px;
+  box-shadow: 10px 10px 20px gray;
 }
-.gallery_item h2, p {
-    padding: 10px;
+.gallery_item h2,
+p {
+  padding: 10px;
 }
-.activities_gallery img{
-    width:100%;
+.activities_gallery img {
+  width: 100%;
 }
-.get_updates_content{
-    text-align: center;
-    padding: 50px 15%;
+.get_updates_content {
+  text-align: center;
+  padding: 50px 15%;
 }
-.get_updates_form{
-    width: 800px;
-    height: 200px;
-    margin: 0 20% ;
-    justify-content: center;
-    border: 1px solid #c7daeb;
-    background-color: #f0f8ff;
+.get_updates_form {
+  width: 800px;
+  height: 200px;
+  margin: 0 20%;
+  justify-content: center;
+  border: 1px solid #c7daeb;
+  background-color: #f0f8ff;
 }
-form{
-    margin: 80px 30%;
-    width: 432px;
-    height: 50px;
-    display: flex;
-  
+form {
+  margin: 80px 30%;
+  width: 432px;
+  height: 50px;
+  display: flex;
 }
-#email{
-    height: 40px;
-    width: 220px;
-    padding: 2px 11px;
-    background-color: rgb(197, 178, 178);
-    border: none;
-    outline: none;
-    font-weight: bold;
+#email {
+  height: 40px;
+  width: 220px;
+  padding: 2px 11px;
+  background-color: rgb(197, 178, 178);
+  border: none;
+  outline: none;
+  font-weight: bold;
 }
-button{
-    text-decoration: none;
-    background-image: linear-gradient(orange, rgb(199, 30, 30));
-    height: 44px;
-    padding: 4px 20px;
-    color: white;
-    font-weight: bold;
-    border: none
-     
+button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, rgb(199, 30, 30));
+  height: 44px;
+  padding: 4px 20px;
+  color: white;
+  font-weight: bold;
+  border: none;
 }
-.footer{
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    background-color: black;
-    color:white;
-    padding: 35px 0px;
-    margin-top: 35px;
+.footer {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 35px 0px;
+  margin-top: 35px;
 }
 .footer h1 {
-    font-family: 'Lobster', cursive;
-    color: orangered
+  font-family: "Lobster", cursive;
+  color: orangered;
 }
